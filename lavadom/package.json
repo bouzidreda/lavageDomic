@@ -1,0 +1,13 @@
+{
+  "name": "lavadom",
+  "private": true,
+  "packageManager": "pnpm@9.12.3",
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "_comment1": "lint fixes formatting, syntax, logic, and typecheck bugs (like passing a string when a number is expected).",
+  "_comment2": "pnpm downloads a library once and links it everywhere, whereas npm duplicates it per project."
+}
